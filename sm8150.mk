@@ -165,6 +165,16 @@ PRODUCT_COPY_FILES += \
 PRODUCT_PACKAGES += \
     power.qcom
 
+# Prebuilts
+PRODUCT_PACKAGES += \
+    OnePlusCamera \
+    OnePlusGallery \
+    OnePlusCameraService
+
+PRODUCT_COPY_FILES += \
+    $(LOCAL_PATH)/prebuilts/addon.d/51-oneplus-camera.sh:system/addon.d/51-oneplus-camera.sh  \
+    $(LOCAL_PATH)/prebuilts/etc/permissions/privapp-permissions-oem.xml:system/etc/permissions/privapp-permissions-oem.xml
+
 # QCOM
 PRODUCT_COPY_FILES += \
     $(LOCAL_PATH)/configs/privapp-permissions-qti.xml:system/etc/permissions/privapp-permissions-qti.xml
