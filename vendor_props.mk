@@ -162,6 +162,7 @@ PRODUCT_PROPERTY_OVERRIDES += \
     persist.demo.hdmirotationlock=false \
     persist.sys.sf.color_saturation=1.0 \
     ro.opengles.version=196610 \
+    ro.surface_flinger.max_frame_buffer_acquired_buffers=3 \
     vendor.display.enable_default_color_mode=1 \
     vendor.gralloc.disable_ubwc=0
 
