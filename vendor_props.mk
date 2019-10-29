@@ -171,7 +171,15 @@ PRODUCT_PROPERTY_OVERRIDES += \
     ro.opengles.version=196610 \
     ro.surface_flinger.max_frame_buffer_acquired_buffers=3 \
     vendor.display.enable_default_color_mode=1 \
-    vendor.gralloc.disable_ubwc=0
+    vendor.gralloc.disable_ubwc=0 \
+    debug.sf.early_phase_offset_ns=6100000 \
+    debug.sf.early_gl_phase_offset_ns=9000000 \
+    debug.sf.phase_offset_threshold_for_next_vsync_ns=6100000 \
+    debug.sf.enable_gl_backpressure=1
+
+PRODUCT_DEFAULT_PROPERTY_OVERRIDES += \
+    ro.surface_flinger.vsync_event_phase_offset_ns=2000000 \
+    ro.surface_flinger.vsync_sf_event_phase_offset_ns=1000000
 
 # IMS
 PRODUCT_PROPERTY_OVERRIDES += \
