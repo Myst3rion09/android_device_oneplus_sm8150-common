@@ -213,6 +213,10 @@ PRODUCT_PACKAGES += \
     vendor.oem_ftm.rc \
     vendor.oem_ftm_svc_disable.rc
 
+# Core package
+PRODUCT_PACKAGES += \
+    SM8150CommonFrameworkRes
+
 # Cryptfshw
 PRODUCT_PACKAGES += \
     vendor.qti.hardware.cryptfshw@1.0.vendor
