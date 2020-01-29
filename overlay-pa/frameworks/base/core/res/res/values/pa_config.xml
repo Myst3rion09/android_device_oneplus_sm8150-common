@@ -48,6 +48,7 @@
     <integer name="config_drawArrowLeftKeyCode">253</integer>
     <integer name="config_drawArrowRightKeyCode">254</integer>
     <integer name="config_twoFingerSwipeKeyCode">251</integer>
+    <integer name="config_singleTapKeyCode">67</integer>
 
     <!-- Default settings for gestures
              0 - Disabled
